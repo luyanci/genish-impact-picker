@@ -1,0 +1,41 @@
+name: Pages
+
+on:
+ workflow_dispatch:
+ workflow_call:
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: rescursive
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: "16"
+      - name: Cache NPM dependencies
+        uses: actions/cache@v3
+        with:
+          path: ./Genshin-Impact-Wish-Simulator/node_modules
+          key: ${{ runner.OS }}-npm-frontend-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-frontend-cache
+      - name: Install Dependencies
+        run: |
+         cd Genshin-Impact-Wish-Simulator
+         yarn install
+      - name: Build
+        run: |
+         cd Genshin-Impact-Wish-Simulator
+         yarn run build
+      - name: Package
+        run: |
+         cd Genshin-Impact-Wish-Simulator
+         7z a -tzip frontend.zip ./.vercel/output/static
+      - name: Upload
+        uses: actions/upload-artifact@v3
+        with:
+          name: frontend
+          path: Genshin-Impact-Wish-Simulator/frontend.zip
