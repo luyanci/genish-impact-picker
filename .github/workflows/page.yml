@@ -20,9 +20,6 @@ jobs:
           key: ${{ runner.OS }}-npm-frontend-cache
           restore-keys: |
             ${{ runner.OS }}-npm-frontend-cache
-      - name: Sync submodules
-        run: |
-         git submodule update --init --recursive
       - name: Install Dependencies
         run: |
          cd Genshin-Impact-Wish-Simulator
