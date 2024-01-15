@@ -13,13 +13,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "16"
-      - name: Cache NPM dependencies
-        uses: actions/cache@v3
-        with:
-          path: ./Genshin-Impact-Wish-Simulator/node_modules
-          key: ${{ runner.OS }}-npm-frontend-cache
-          restore-keys: |
-            ${{ runner.OS }}-npm-frontend-cache
+      - name: Sync supmodule
+        run: |
+         git submodule update --init --recursive
       - name: Install Dependencies
         run: |
          cd Genshin-Impact-Wish-Simulator
