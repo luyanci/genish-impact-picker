@@ -1,0 +1,34 @@
+name: Update Submodule
+
+on:
+ workflow_dispatch:
+ schedule: 
+    - cron: "0 0 * * 1"
+
+jobs:
+    Update:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Setup
+              run: |
+                git config --global user.name github-actions[bot]
+                git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
+            - uses: actions/checkout@v4
+              with:
+                  submodules: rescursive
+            - name: Get submodules
+              run: |
+                git submodule update --init --recursive
+            - name: Update submodules
+              run: |
+                  cd Genshin-Impact-Wish-Simulator
+                  git checkout main
+                  git pull
+            - name: Create commit
+              run: |
+                git add Genshin-Impact-Wish-Simulator
+                git commit -m "Auto update submodule"
+            - name: Push commit
+              run: |
+                git push
+              
