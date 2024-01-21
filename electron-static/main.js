@@ -1,3 +1,4 @@
+const {getPort} = require('get-port-please');
 const  {app, BrowserWindow} = require('electron');
 const express = require('express');
 const path = require('path');
@@ -7,24 +8,27 @@ let e = express();
 // e.use(express.static('./static'))
 e.use(express.static(path.join(__dirname, 'static')))
 
-let s = e.listen(0, 'localhost')
+let port;
+getPort().then((value) => {
+    port = value;
+    e.listen(port, 'localhost');
+})
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 var win;
 function createWindow () {
     // Create the browser window.
-    win = new BrowserWindow({width: 1080, height: 1920,frame:false});
+    win = new BrowserWindow({width: 1920, height: 1080, frame:true});
     win.setFullScreen(false);
- 
+
     // and load the index.html of the app.
-    const port = s.address().port;
     win.loadURL(`http://localhost:${port}`);
- 
+
     // win.once('ready-to-show', () => {
     //     win.show()
     // })
- 
+
     // Open the DevTools.
     // win.webContents.openDevTools()
     // Emitted when the window is closed.
