@@ -103,3 +103,5 @@ yarn run build
 ![genshin-picker's Contributors](https://stats.deeptrain.net/contributor/luyanci/genish-impact-picker)
 
 [![Genshin-Impact-Wish-Simulator's Contributors](https://stats.deeptrain.net/contributor/luyanci/Genshin-Impact-Wish-Simulator)](https://github.com/luyanci/Genshin-impact-wish-simulator)
+
+同时欢迎各位对本项目提PR和Issues哦！
