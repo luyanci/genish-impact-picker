@@ -40,8 +40,11 @@ Note:Nostar为无自定义星数版本
 由于本仓库使用了子模块功能，clone时要连着子模块一起clone过去
 
 ```sh
-git clone --recursive https://github.com/xfgryujk/blivechat.git
+git clone --recursive https://github.com/luyanci/genish-impact-picker.git
 ```
+
+如果已经clone
+
 
 ## 感谢
 
