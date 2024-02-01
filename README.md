@@ -37,13 +37,62 @@ Note:Nostar为无自定义星数版本
 
 
 ## 二次开发
+### 要求
+需要安装Nodejs
+
+### 获取源码
 由于本仓库使用了子模块功能，clone时要连着子模块一起clone过去
 
 ```sh
 git clone --recursive https://github.com/luyanci/genish-impact-picker.git
 ```
 
-如果已经clone
+如果已经clone，拉取子模块方法：
+```
+git submodule update --init --recursive
+```
+
+### 初始化
+
+进入'Genshin-impact-wish-simulator'与'electron-static'文件夹，运行以下指令来初始化环境
+
+```
+#use npm
+npm install
+#use yarn
+yarn install
+```
+
+### 调试
+
+进入'Genshin-impact-wish-simulator'文件夹，运行以下指令，调试网页
+
+```
+#use npm
+npm run dev
+#use yarn
+yarn run dev
+```
+
+### 
+
+进入'Genshin-impact-wish-simulator'运行以下指令来构建
+
+```
+#use npm
+npm run build
+#use yarn
+yarn run build
+```
+
+将'.vercel/output'里的'static'文件夹整个复制到'electron-static'文件夹里，然后在该目录下执行以下指令，构建应用程序
+
+```
+#use npm
+npm run build
+#use yarn
+yarn run build
+```
 
 
 ## 感谢
