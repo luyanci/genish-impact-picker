@@ -38,3 +38,6 @@ Note:Nostar为无自定义星数版本
 
 ## 二次开发
 由于本仓库使用了子模块功能，clone时要连着子模块一起clone过去
+## 感谢
+[genshin-picker's Contributors](https://stats.deeptrain.net/contributor/zmh-program/genish-impact-picker)
+[![Genshin-Impact-Wish-Simulator's Contributors](https://stats.deeptrain.net/contributor/luyanci/Genshin-Impact-Wish-Simulator)](https://github.com/luyanci/Genshin-impact-wish-simulator)
