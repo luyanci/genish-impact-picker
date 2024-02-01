@@ -1,7 +1,10 @@
 # genish-impact-picker
 原神抽卡点名器
 
+(tips:本readme文档的信息卡片都能点，子模块的信息卡片可直接跳转到)
+
 [![genish-impact-picker's Github Stats](https://stats.deeptrain.net/repo/luyanci/genish-impact-picker)](https://github.com/zmh-program/code-statistic)
+
 [![Genshin-impact-wish-simulator's Github Stats](https://stats.deeptrain.net/repo/luyanci/Genshin-impact-wish-simulator)](https://github.com/luyanci/Genshin-impact-wish-simulator)
 
 Rebased from https://github.com/cyanial/genshin-impact-picker
@@ -74,7 +77,7 @@ npm run dev
 yarn run dev
 ```
 
-### 
+### 构建
 
 进入'Genshin-impact-wish-simulator'运行以下指令来构建
 
