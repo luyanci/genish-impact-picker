@@ -57,7 +57,7 @@ git submodule update --init --recursive
 
 ### 初始化
 
-进入`Genshin-impact-wish-simulator`与'electron-static'文件夹，运行以下指令来初始化环境
+进入`Genshin-impact-wish-simulator`与`electron-static`文件夹，运行以下指令来初始化环境
 
 ```
 #use npm
@@ -68,7 +68,7 @@ yarn install
 
 ### 调试
 
-进入'Genshin-impact-wish-simulator'文件夹，运行以下指令，调试网页
+进入`Genshin-impact-wish-simulator`文件夹，运行以下指令，调试网页
 
 ```
 #use npm
@@ -79,7 +79,7 @@ yarn run dev
 
 ### 构建
 
-进入'Genshin-impact-wish-simulator'运行以下指令来构建
+进入`Genshin-impact-wish-simulator`运行以下指令来构建
 
 ```
 #use npm
@@ -88,7 +88,7 @@ npm run build
 yarn run build
 ```
 
-将'.vercel/output'里的'static'文件夹整个复制到'electron-static'文件夹里，然后在该目录下执行以下指令，构建应用程序
+将`.vercel/output`里的`static`文件夹整个复制到`electron-static`文件夹里，然后在该目录下执行以下指令，构建应用程序
 
 ```
 #use npm
