@@ -57,7 +57,7 @@ git submodule update --init --recursive
 
 ### 初始化
 
-进入'Genshin-impact-wish-simulator'与'electron-static'文件夹，运行以下指令来初始化环境
+进入`Genshin-impact-wish-simulator`与'electron-static'文件夹，运行以下指令来初始化环境
 
 ```
 #use npm
