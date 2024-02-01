@@ -98,7 +98,7 @@ yarn run build
 ```
 
 
-## 感谢
+## 感谢以下贡献者
 
 ![genshin-picker's Contributors](https://stats.deeptrain.net/contributor/luyanci/genish-impact-picker)
 
