@@ -16,7 +16,7 @@ Rebased from https://github.com/cyanial/genshin-impact-picker
 ### 在线使用(Powered by Netlify)
 可通过本按钮部署至Netlify：
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/luyanci/Genshin-impact-wish-simulator)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/luyanci/Genshin-Impact-Wish-Simulator)
 
 
 也可通过以下链接访问：
