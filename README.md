@@ -16,10 +16,12 @@ Rebased from https://github.com/cyanial/genshin-impact-picker
 注意：自定义星数版本需要在名字前加3/4/5，否则不显示名字！
 
 ### 在线
+可通过本按钮部署至netlify：
+
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/luyanci/Genshin-impact-wish-simulator)
 
 
-可通过以下链接访问：
+也可通过以下链接访问：
 
 
 
