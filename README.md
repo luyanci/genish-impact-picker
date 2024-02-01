@@ -1,7 +1,8 @@
 # genish-impact-picker
 原神抽卡点名器
 
-[![genish-impact-pickee's Github Stats](https://stats.deeptrain.net/repo/luyanci/genish-impact-picker)](https://github.com/zmh-program/code-statistic)
+[![genish-impact-picker's Github Stats](https://stats.deeptrain.net/repo/luyanci/genish-impact-picker)](https://github.com/zmh-program/code-statistic)
+[![genish-impact-pickee's Github Stats](https://stats.deeptrain.net/repo/luyanci/Genshin-impact-wish-simulator)](https://github.com/zmh-program/code-statistic)
 
 Rebased from https://github.com/cyanial/genshin-impact-picker
 
