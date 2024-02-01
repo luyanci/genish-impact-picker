@@ -1,7 +1,7 @@
 # genish-impact-picker
 原神抽卡点名器
 
-(tips:本readme文档的信息卡片都能点，子模块的信息卡片可直接跳转到)
+(tips:本readme文档的信息卡片都能点，子模块的信息卡片可直接跳转到子模块仓库)
 
 [![genish-impact-picker's Github Stats](https://stats.deeptrain.net/repo/luyanci/genish-impact-picker)](https://github.com/zmh-program/code-statistic)
 
