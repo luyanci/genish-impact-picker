@@ -1,17 +1,21 @@
 # genish-impact-picker
 原神抽卡点名器
+
 Rebased from https://github.com/cyanial/genshin-impact-picker
 
 ## 使用方法
 ### 本地
 从release中下载对应系统的程序包，完整解压后运行程序
 
+
+
 在左上角问号中上传名单(utf-8编码,txt格式)即可使用
 
 注意：自定义星数版本需要在名字前加3/4/5，否则不显示名字！
 
 ### 在线
-可通过以下链接访问(服务由**netlify**驱动)：
+
+可通过以下链接访问：
 
 Note:Nostar为无自定义星数版本
 
