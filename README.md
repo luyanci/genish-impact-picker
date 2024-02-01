@@ -1,13 +1,15 @@
 # genish-impact-picker
 原神抽卡点名器
 
+[![genish-impact-pickee's Github Stats](https://stats.deeptrain.net/repo/luyanci/genish-impact-picker)](https://github.com/zmh-program/code-statistic)
+
 Rebased from https://github.com/cyanial/genshin-impact-picker
 
 ## 使用方法
 ### 本地
 从release中下载对应系统的程序包，完整解压后运行程序
 
-
+[![genish-impact-picker's Latest Release](https://stats.deeptrain.net/release/luyanci/genish-impact-picker)](https://github.com/luyanci/genish-impact-picker/release/latest)
 
 在左上角问号中上传名单(utf-8编码,txt格式)即可使用
 
@@ -16,6 +18,8 @@ Rebased from https://github.com/cyanial/genshin-impact-picker
 ### 在线
 
 可通过以下链接访问：
+
+
 
 Note:Nostar为无自定义星数版本
 
