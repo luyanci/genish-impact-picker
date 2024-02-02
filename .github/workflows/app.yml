@@ -7,6 +7,10 @@ on:
     branches:
       - main # default branch
       - without-custom-stars
+    paths:
+      - electron-static/*
+      - Genshin-Impact-Wish-Simulator/*
+
 
 jobs:
   Page:
