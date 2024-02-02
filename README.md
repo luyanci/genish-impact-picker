@@ -1,6 +1,7 @@
 # genish-impact-picker
 <div align="center">
 原神抽卡点名器
+
 ![](https://img.shields.io/badge/Github%20Actions-282a2e?style=for-the-badge&logo=githubactions&logoColor=367cfe)
 
 </dev>
