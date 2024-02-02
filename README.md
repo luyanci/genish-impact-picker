@@ -1,6 +1,9 @@
 # genish-impact-picker
+<div align="center">
 原神抽卡点名器
+![](https://img.shields.io/badge/Github%20Actions-282a2e?style=for-the-badge&logo=githubactions&logoColor=367cfe)
 
+</dev>
 (tips:本readme文档的信息卡片都能点，子模块的信息卡片可直接跳转到子模块仓库)
 
 [![genish-impact-picker's Github Stats](https://stats.deeptrain.net/repo/luyanci/genish-impact-picker)](https://github.com/zmh-program/code-statistic)
