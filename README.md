@@ -5,6 +5,9 @@
 
 ![](https://img.shields.io/badge/Github%20Actions-282a2e?style=for-the-badge&logo=githubactions&logoColor=367cfe)
 
+![Release](https://github.com/luyanci/genish-impact-picker/actions/workflows/release.yml/badge.svg)![Pages](https://github.com/luyanci/genish-impact-picker/actions/workflows/page.yml/badge.svg)![Build app](https://github.com/luyanci/genish-impact-picker/actions/workflows/app.yml/badge.svg)
+
+
 </dev>
 (tips:本readme文档的信息卡片都能点，子模块的信息卡片可直接跳转到子模块仓库)
 
