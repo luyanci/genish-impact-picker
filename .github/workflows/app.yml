@@ -6,7 +6,7 @@ on:
  push:
     branches:
       - main # default branch
-      - without-custom-star
+      - without-custom-stars
 
 jobs:
   Page:
