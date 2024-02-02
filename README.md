@@ -27,7 +27,7 @@ Rebased from https://github.com/cyanial/genshin-impact-picker
 [![genish-impact-picker's Latest Release](https://stats.deeptrain.net/release/luyanci/genish-impact-picker)](https://github.com/luyanci/genish-impact-picker/release/latest)
 
 
-### 在线使用![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+### 在线使用(Powered by ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7))
 可通过本按钮部署至Netlify：
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/luyanci/Genshin-Impact-Wish-Simulator)
