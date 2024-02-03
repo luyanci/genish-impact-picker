@@ -1,7 +1,7 @@
 # genish-impact-picker
 <div align="center">
 
-![](https://github.com/luyanci/Genshin-Impact-Wish-Simulator/blob/main/static%2Ficons%2Ficon-256x256.png)
+![](https://raw.githubusercontent.com/luyanci/Genshin-Impact-Wish-Simulator/main/static/icons/icon-256x256.png)
 
 **原神抽卡点名器**
 
