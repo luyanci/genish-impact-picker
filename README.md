@@ -32,7 +32,7 @@ Rebased from https://github.com/cyanial/genshin-impact-picker
 ### 在线使用
 可通过以下按钮部署至Netlify/vercel：
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/luyanci/Genshin-Impact-Wish-Simulator)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/luyanci/Genshin-Impact-Wish-Simulator)[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/luyanci/Genshin-Impact-Wish-Simulator)
 
 
 也可通过以下链接访问(Powered by ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7))：
