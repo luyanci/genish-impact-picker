@@ -39,6 +39,7 @@ Rebased from https://github.com/cyanial/genshin-impact-picker
 
 Note:
 Powered by ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+
 Nostar为无自定义星数版本
 
 |version|star|nostar|
