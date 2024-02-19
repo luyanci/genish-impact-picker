@@ -22,7 +22,7 @@ jobs:
             - name: Update submodules
               run: |
                   cd Genshin-Impact-Wish-Simulator
-                  git checkout re-rebase
+                  git checkout nostar
                   git pull
             - name: Create commit
               run: |
