@@ -43,7 +43,7 @@ Nostar为无自定义星数版本
 
 |version|~~star~~|nostar|
 |---|---|---|
-|netlify status|~~[![Netlify Status](https://api.netlify.com/api/v1/badges/ffee3df0-a1d0-488a-b820-9bae737e4cf8/deploy-status)](https://app.netlify.com/sites/genshin-picker/deploys)~~|[![Netlify Status](https://api.netlify.com/api/v1/badges/6cd0fbc5-b04c-4798-840f-3ca6aa5e4855/deploy-status)](https://app.netlify.com/sites/genshin-picker-nostar/deploys)|
+|netlify status|~~Stopped!~~|[![Netlify Status](https://api.netlify.com/api/v1/badges/6cd0fbc5-b04c-4798-840f-3ca6aa5e4855/deploy-status)](https://app.netlify.com/sites/genshin-picker-nostar/deploys)|
 |link|[~~Click here~~](https://genshin-picker.netlify.app)|[Click here](https://genshin-picker-nostar.netlify.app)|
 
 ### notes
