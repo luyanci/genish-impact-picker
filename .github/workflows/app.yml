@@ -88,6 +88,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "16"
+      - name: Sync submodule
+        run: |
+         git submodule update --init --recursive
       - name: Cache NPM dependencies
         uses: actions/cache@v3
         with:
