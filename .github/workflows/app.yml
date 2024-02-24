@@ -20,6 +20,7 @@ on:
 
 jobs:
   Page:
+    name: Build Page
     uses: ./.github/workflows/page.yml
   Build-app:
     name: Build with Electron
@@ -118,13 +119,13 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: genish-impact-Tauri-${{ runner.os }}-appimage
-          path: Genshin-Impact-Wish-Simulator/src-tauri/target/release/bundle/appimage/_*.AppImage
+          path: Genshin-Impact-Wish-Simulator/src-tauri/target/release/bundle/appimage/genshin-picker_*.AppImage
       - name: Upload deb (Linux)
         if: runner.os == 'Linux'
         uses: actions/upload-artifact@v3
         with:
           name: genish-impact-Tauri-${{ runner.os }}-deb
-          path: Genshin-Impact-Wish-Simulator/src-tauri/target/release/bundle/deb/_*.deb
+          path: Genshin-Impact-Wish-Simulator/src-tauri/target/release/bundle/deb/genshin-picker_*.deb
       - name: Upload dmg (Macos)
         if: runner.os == 'macos'
         uses: actions/upload-artifact@v3
