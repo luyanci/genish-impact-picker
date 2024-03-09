@@ -28,7 +28,7 @@ Rebased from https://github.com/cyanial/genshin-impact-picker
 [![genish-impact-picker's Latest Release](https://stats.deeptrain.net/release/luyanci/genish-impact-picker)](https://github.com/luyanci/genish-impact-picker/release/latest)
 
 
-### 在线使用
+### 在线使用(不推荐)
 可通过以下按钮部署至Netlify/vercel：
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/luyanci/Genshin-Impact-Wish-Simulator)  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/luyanci/Genshin-Impact-Wish-Simulator)
@@ -49,7 +49,7 @@ Nostar为无自定义星数版本
 ### notes
 使用任意一种，在左上角问号中上传名单(**utf-8编码,txt格式**)即可使用
 
-注意：自定义星数版本需要在名字前加3/4/5，否则不显示名字！
+~~注意：自定义星数版本需要在名字前加3/4/5，否则不显示名字！~~
 
 
 ## 二次开发
