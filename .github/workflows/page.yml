@@ -8,14 +8,14 @@ jobs:
   Build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: "recursive"
       - name: Use Node.js 16.x
         uses: actions/setup-node@v4
         with:
           node-version: "16"
-      - name: Sync submodule
-        run: |
-         git submodule update --init --recursive
       - name: Cache NPM dependencies
         uses: actions/cache@v3
         with:
