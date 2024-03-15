@@ -16,9 +16,6 @@ jobs:
             - uses: actions/checkout@v4
               with:
                   submodules: rescursive
-            - name: Get submodules
-              run: |
-                git submodule update --init --recursive
             - name: Update submodules
               run: |
                   cd Genshin-Impact-Wish-Simulator
