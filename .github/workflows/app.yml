@@ -124,13 +124,13 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: genish-impact-Tauri-${{ runner.os }}-appimage
-          path: Genshin-Impact-Wish-Simulator/src-tauri/target/release/bundle/appimage/genish-picker_*.AppImage
+          path: Genshin-Impact-Wish-Simulator/src-tauri/target/release/bundle/appimage/genish-impact_*.AppImage
       - name: Upload deb (Linux)
         if: runner.os == 'Linux'
         uses: actions/upload-artifact@v3
         with:
           name: genish-impact-Tauri-${{ runner.os }}-deb
-          path: Genshin-Impact-Wish-Simulator/src-tauri/target/release/bundle/deb/genish-picker_*.deb
+          path: Genshin-Impact-Wish-Simulator/src-tauri/target/release/bundle/deb/genish-impact_*.deb
       - name: Upload dmg (Macos)
         if: runner.os == 'macos'
         uses: actions/upload-artifact@v3
